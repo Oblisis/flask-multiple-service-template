@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block app_content %}
+<div class="text-center col-lg-12">
+    <h1>Hello and Welcome!</h1>
+    <hr class="intro-divider">
+    <div>{{ current_user.name }}</div>
+</div>
+{% endblock %}
